@@ -1,0 +1,19 @@
+{
+  "name": "vue-express-mongodb-api",
+  "version": "1.0.0",
+  "description": "Vuejs Mongodb Express API",
+  "license": "ISC",
+  "author": "Mursidi omahengendi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
+  }
+}
